@@ -6,7 +6,7 @@ const candidatesRouter = require('./routes/candidate')
 app.use(express.json())
 app.use(cors())
 app.get('/', (req, res) => {
-    res.send('Hola a todos')
+    res.send('API test')
 })
 
 app.use('/candidates', candidatesRouter)
